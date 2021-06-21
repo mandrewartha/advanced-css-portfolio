@@ -1,6 +1,6 @@
 # advanced-css-portfolio
 
-In this project html and advanced CSS was used to create a portfolio website. The html was created using semantics and best practices.
+In this project html and advanced CSS was used to create a portfolio website. The html was created using semantics and best practices.The links to portfolio examples are interactive as well as the footer and navigation bar. 
 
 # Mock Up
 ![image](https://user-images.githubusercontent.com/84876493/122713085-fddbfc00-d219-11eb-8cd5-acd4ea27adb6.png)
@@ -9,4 +9,4 @@ In this project html and advanced CSS was used to create a portfolio website. Th
 ![image](https://user-images.githubusercontent.com/84876493/122713221-38459900-d21a-11eb-8425-deec6004e1d9.png)
 
 # Link
-The deployed application can be found at: 
+The deployed application can be found at: https://mandrewartha.github.io/advanced-css-portfolio/ 
