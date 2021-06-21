@@ -1,0 +1,183 @@
+:root {
+    --primary-text-background: #455A64;
+    --secondary-text-background:hsl(204, 71%, 81%); 
+    
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+body {
+    background-color:#E5E7E9;
+    display: block;
+}
+
+main {
+    margin: 0 40px;
+}
+
+
+.header-pic {
+    width: 100%;
+}
+
+.footer-link {
+    color: var(--primary-text-background);
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+.row {
+    display: flex;
+    margin: 0 0 50px 0;
+    
+}
+
+.one-left-column {
+    border-right: 10px solid var(--primary-text-background);
+    width: 15%;
+}
+
+.header {
+    background-color:var(--primary-text-background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.contact-me {
+    border-right: 10px solid var(--primary-text-background);
+}
+
+h1 {
+    color:var(--primary-text-background);
+    font-size: 40px;
+    width: 420px;
+    margin:15px;
+}
+
+.link-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bottom-bar {
+    position: relative;
+    top: 50px;
+}
+
+.link-image {
+    width: 100%
+}
+
+.pictures {
+    border: 7px solid var(--secondary-text-background);
+    opacity: 50%;
+}
+
+.image-name {
+    color: var(--primary-text-background);
+    font-size: 22px;
+    bottom: 80px !important;
+}
+
+.portfolio-example {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    padding: 10px;
+}
+
+.subtext {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-text-background);
+    position: absolute;
+    bottom: 40px;
+    width: 30%;
+    height: 48px;
+    padding:10px 0;
+    z-index:1
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.big {
+    width: 100%;
+}
+
+.small {
+    width:50%;
+}
+
+.text {
+    padding: 15px;
+}
+
+#large-link-image {
+    width: 100%;
+}
+
+.nav-link
+ {
+    text-decoration: underline;
+    color:var(--secondary-text-background);
+    font-size: 20px;
+    margin: 20px
+}
+
+#header-image {
+    height: 150px;
+    width: 100%;
+}
+
+#portfolio {
+    font-size: 30px;
+    width: 130px;
+    position: relative;
+    bottom: 70px;
+    left: 75%;
+    text-align: center;
+    padding: 3px;
+    color: var(--primary-text-background);
+}
+
+#header-image, #portfolio {
+    display: flex;
+    flex-direction: row;
+        
+}
+
+#name, #portfolio {
+    background-color: var(--secondary-text-background);
+    text-align: center;
+}
+
+.pictures:hover {
+    opacity: 100%;
+}
+
+
+.text, #about-me {
+    display: flex;
+    flex-direction: row;
+}
