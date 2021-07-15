@@ -14,6 +14,8 @@
 body {
     background-color:#E5E7E9;
     display: block;
+    height: 100%;
+    width:100%;
 }
 
 main {
@@ -26,9 +28,7 @@ main {
     font-weight: bold;
 }
 
-/* why is this not working??? */
 .name {
-    /* font-style: bold; */
     font-size: 40px;
     margin:15px;
     font-family: "Lobster", cursive;
@@ -45,16 +45,17 @@ main {
 .footer-link {
     color: var(--primary-text-background);
     text-decoration: underline;
-    font-size: 20px;
-    margin: 20px;
-    padding: 40px;
+    font-size: 1.8vw;
+    /* margin: 20px; */
+    padding: 30px;
+    /* text-justify: distribute; */
+    /* text-size-adjust: auto; */
 }
-
 
 .row {
     display: flex;
     margin: 0 0 50px 0;
-    
+    /* overflow:auto; */
 }
 
 .one-left-column {
@@ -73,11 +74,12 @@ main {
 
 .contact-me {
     border-right: 10px solid var(--primary-text-background);
+    /* font-size: 2vw; */
 }
 
 h1 {
     color:var(--primary-text-background);
-    font-size: 40px;
+    font-size: 2vw;
     width: 420px;
     margin:15px;
 }
@@ -86,7 +88,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:fit-content;
 
 }
 
@@ -104,12 +106,7 @@ h1 {
     opacity: 50%;
 }
 
-.image-name {
-    color: var(--primary-text-background);
-    font-size: 22px;
-    bottom: 80px !important;
 
-}
 
 .portfolio-example {
     display:flex;
@@ -127,16 +124,21 @@ h1 {
     align-items: center;
     background-color: var(--secondary-text-background);
     position: absolute;
-    bottom: 40px;
-    width: 38%;
-    height: 50px;
+    width: 22vw;
+    height: 5vh;
     padding:10px 0;
     z-index:1;
     text-align: center;
+    font-size: 2vw;
+    bottom: 50px;
 }
 
 .image-name {
-    height: 100px;
+    color: var(--primary-text-background);
+    font-size: 2vw;
+    bottom: 80px !important;
+    height: 7vh;
+
 }
 
 .work {
@@ -207,10 +209,6 @@ h1 {
     flex-direction: row;
 }
 
-/* #about-me {
-    width: 25%;
-}
-
-#about-text {
-    width: 75%;
+/* @media only screen and (max-width: 768px){
+    .row {}
 } */
